@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,6 +14,7 @@
     "@tailwindcss/postcss": "^4.0.11",
     "@tanstack/react-query": "^5.67.1",
     "@tanstack/react-query-devtools": "^5.67.1",
+    "@vituum/vite-plugin-postcss": "^1.1.0",
     "axios": "^1.8.1",
     "daisyui": "^5.0.0",
     "react": "^19.0.0",
